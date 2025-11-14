@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>DatexSystems — IT-решения для бизнеса</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-inner">
+      <h1 class="logo">DatexSystems</h1>
+      <nav class="nav">
+        <a href="#products" class="nav-link">Продукты</a>
+        <a href="#partners" class="nav-link">Партнёры</a>
+        <a href="#contacts" class="nav-link">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h2 class="hero-title">Технологии для будущего</h2>
+      <p class="hero-subtitle">
+        Инновационные IT-решения, оборудование и поддержка для бизнеса, образования и геймеров.
+      </p>
+      <button class="btn-primary">Подробнее</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section">
+    <div class="container">
+      <h3 class="section-title">Наши продукты</h3>
+      <div class="products-grid">
+        <article class="card">
+          <img src="images/server.jpg" alt="Серверные решения" class="card-image">
+          <div class="card-body">
+            <h4 class="card-title">Серверные решения</h4>
+            <p class="card-text">
+              Надёжные серверы и системы хранения данных корпоративного уровня.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/network.jpg" alt="Сетевое оборудование" class="card-image">
+          <div class="card-body">
+            <h4 class="card-title">Сетевое оборудование</h4>
+            <p class="card-text">
+              Современные решения для построения быстрых и безопасных сетей.
+            </p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/pc.jpg" alt="Компьютеры и периферия" class="card-image">
+          <div class="card-body">
+            <h4 class="card-title">Компьютеры и периферия</h4>
+            <p class="card-text">
+              Полный спектр ПК, мониторов и аксессуаров для бизнеса и геймеров.
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- PARTNERS -->
+  <section id="partners" class="section section-gray">
+    <div class="container">
+      <h3 class="section-title">Наши партнёры</h3>
+      <div class="partners">
+        <img src="images/asus.png" alt="ASUS" class="partner-logo">
+        <img src="images/msi.png" alt="MSI" class="partner-logo">
+        <img src="images/gigabyte.png" alt="Gigabyte" class="partner-logo">
+        <img src="images/sony.png" alt="Sony" class="partner-logo">
+        <img src="images/tplink.png" alt="TP-Link" class="partner-logo">
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTS -->
+  <section id="contacts" class="section">
+    <div class="container contacts">
+      <h3 class="section-title">Контакты</h3>
+      <p class="contact-line">📍 Ташкент, Узбекистан</p>
+      <p class="contact-line">📞 +998 (90) 123-45-67</p>
+      <p class="contact-line">✉️ info@datexsystems.uz</p>
+      <p class="contact-line">
+        Мы открыты для сотрудничества и новых проектов.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© <span id="year"></span> DatexSystems. Все права защищены.</p>
+  </footer>
+
+  <script>
+    // Текущий год в подвале
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
